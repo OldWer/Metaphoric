@@ -1,0 +1,317 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "28c317e7-0d18-4677-9992-e0b587dfd665")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 142.24 74.93)
+		(size 50.165 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4809def8-80a6-462e-bbf1-7cbfa00d0592")
+		(property "Sheetname" "CPU"
+			(at 142.24 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 142.24 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 122.555)
+		(size 48.26 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63180148-f2b8-493c-a0c2-621ce4ec5bd0")
+		(property "Sheetname" "Reset"
+			(at 33.02 121.8434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 33.02 162.5096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 29.21)
+		(size 48.26 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69398288-e61f-4341-8fce-422131b7b223")
+		(property "Sheetname" "ULA"
+			(at 33.02 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ULA.kicad_sch"
+			(at 33.02 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 74.93)
+		(size 48.26 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ab619fc-ec44-40d2-98ec-6e60fc1e284f")
+		(property "Sheetname" "Tape"
+			(at 87.63 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tape.kicad_sch"
+			(at 87.63 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 74.93)
+		(size 48.26 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a59c7c3c-62c6-498e-813c-e050a79db9b3")
+		(property "Sheetname" "Memory"
+			(at 33.02 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 33.02 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 122.555)
+		(size 48.26 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e59da54a-85a9-4981-85ac-1f16e6e64ac9")
+		(property "Sheetname" "Power"
+			(at 87.63 121.8434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 87.63 162.5096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 29.21)
+		(size 48.26 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7729704-3791-4f81-b641-6e63b0cebea1")
+		(property "Sheetname" "Video Out"
+			(at 87.63 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video_out.kicad_sch"
+			(at 87.63 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.875 29.21)
+		(size 49.53 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8bb4b3b-0f2e-4b37-be50-e379dc27dbfc")
+		(property "Sheetname" "Sound"
+			(at 142.875 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sound.kicad_sch"
+			(at 142.875 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MetaphoricV2"
+				(path "/28c317e7-0d18-4677-9992-e0b587dfd665"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,19 @@
+Reference;Value;Footprint;Qty;;;
+DIODES;;;;;;
+D1;LED;LED 5.0mm;1;;;
+"D2;D3;D4;D5;D6;D7;D8";1N4148;DO-35;7;;;
+CONNECTORS;;;;;;
+J1;Conn_01x14;PinHeader_1x14 Female;1;;;
+J2;Joystick;PinHeader_1x13 Female;1;;;
+"J3;J4";DB9;DB-9;2;;;
+RESISTOR;;;;;;
+R1;1K2;Resistor;1;;;
+KEY SWITCHES;;;;;;
+SW1-SW58;;Cherry MX;58;;;
+SWITCHES;;;;;;
+SW59;RESET;Tact Switch;1;;;
+SW60;NMI;Tact Switch;1;;;
+SW62;BANKSEL;Switch 3pin;1;;;
+SW63;IJK DISABLE;Switch 3pin;1;;;
+IC;;;;;DIP Socket;
+U1;4051;DIP-16;1;;DIP-16;1
