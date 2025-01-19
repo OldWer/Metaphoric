@@ -1,5 +1,6 @@
 # Metaphoric
 An Oric clone
+
 Details will be posted soon
 
 <img src="./Pictures/20250114_101616.jpg" width="512">
