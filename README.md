@@ -1,7 +1,6 @@
 <img src="./Pictures/MetaphoricLogo.png">
 
-# Metaphoric
-An Oric clone
+# Metaphoric - an enhanced Oric clone
 
 Details will be posted soon
 
