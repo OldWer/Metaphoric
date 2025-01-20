@@ -1,3 +1,4 @@
+<img src="./Pictures/MetaphoricLogo.png">
 # Metaphoric
 An Oric clone
 
