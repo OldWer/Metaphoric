@@ -19,6 +19,8 @@ Metaphoric is an Oric clone with the memory subsystem based on the OriClone-1 pr
 # Building the Metaphoric
 Note: The main PCB fits in the original Oric-1/Atmos case (the keyboard PCB <i>does not</i>!). If you would like to use the main PCB with the original keyboard and case, do not install J10 (TRRS socket) and J7 (auxiliary connector that supports the additional switches on the keyboard).
 
+The repository contains two directories with KiCAD projects for the main PCB and the keyboard PCB. The bill of materials is available in BOM.* files in the respective directories (in csv, xlsx and PDF formats). In the gerbers subdirectories there are gerber files ready for manufacturing (I used recommended JLCPCB settings when exporting the gerbers).  
+
 Most of the build is pretty self-explanatory, as all the components are described on the PCB. The things to watch for, in no particular order, are as follows:
 1. You can omit all the parts in the 'COMPOSITE VIDEO SECTION' if you're only planning to use the RGB output. The file 'RGB_Scart_Tape.pdf' shows how to build a SCART cable, and this is definitely the recommended way of using an Oric, original or cloned.
 2. Next to the composite RCA socket there is the J11 header. You can put jumper on pins 2-3 to use the nearby TRRS socket as an audio/video video out; there are ready-made 3,5mm jack-3 x RCA cables which you can use to output video and sound. Or you can put a jumper on pins 1-2 to use the TRRS socket as a regular 3,5mm stereo sound out, useful for connecting the Oric to a stereo system or an external speaker. 
