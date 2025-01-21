@@ -31,6 +31,7 @@ Most of the build is pretty self-explanatory, as all the components are describe
 <img src="./Pictures/MainPCBback.jpg" width="512">
 <img src="./Pictures/KeyboardPCBback.jpg" width="512">
 Then you should put 3D printed spacers between the two boards where the holes are and screw the boards to the case using M3x16 or M3x18 screws.
+
 10. As for the keyboard, the joystick ports must be soldered on the back side od the PCB, like so:
 <img src="./Pictures/joyport.jpg" width="512">
 
