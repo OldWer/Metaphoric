@@ -11,9 +11,12 @@ Metaphoric is an Oric clone with the memory subsystem based on the OriClone-1 pr
 * Easily accessible switches for changing the ROM between Oric-1 and Oric Atmos and for disabling the IJK interface (it may interfere with the operation of printer port and it can also corrupt sound in games that do not support IJK, e.g. Manic Miner)
 * Automatic hardware V-sync hack - original Orics did not have any way of checking the vertical sync signal, which made it difficult to write games without flickering sprites, so somebody came up with the idea of connecting video sync signal to tape in using an external cable and synchronizing games/demos in that way. Metaphoric has a transistor that connects sync out to tape in when the tape relay is inactive and disconnects it when the relay is active (to allow loading from tape).
 
-Details will be posted soon
-
 <img src="./Pictures/20250114_101616.jpg" width="512">
 <img src="./Pictures/20250114_101747.jpg" width="512">
 <img src="./Pictures/20250114_221728.jpg" width="512">
 <img src="./Pictures/20250117_132145.jpg" width="512">
+
+# Building the Metaphoric
+Note: The main PCB fits in the original Oric-1/Atmos case (the keyboard PCB does not!). If you would like to use the main PCB with the original keyboard and case, do not install J10 (TRRS socket) and J7 (auxiliary connector that supports the additional switches on the keyboard).
+
+
