@@ -19,7 +19,7 @@ Metaphoric is an Oric clone with the memory subsystem based on the OriClone-1 pr
 # Building the Metaphoric
 Note: The main PCB fits in the original Oric-1/Atmos case (the keyboard PCB <i>does not</i>!). If you would like to use the main PCB with the original keyboard and case, do not install J10 (TRRS socket) and J7 (auxiliary connector that supports the additional switches on the keyboard).
 
-The repository contains two directories with KiCAD projects for the main PCB and the keyboard PCB. The bill of materials is available in BOM.* files in the respective directories (in csv, xlsx and PDF formats). In the gerbers subdirectories there are gerber files ready for manufacturing (I used recommended JLCPCB settings when exporting the gerbers).  
+The repository contains two directories with KiCAD projects for the main PCB and the keyboard PCB. The bill of materials is available in BOM.* files in the respective directories (in csv, xlsx and PDF formats). In the gerbers subdirectories there are gerber files ready for manufacturing (I used recommended JLCPCB settings when exporting the gerbers). In the main PCB's STL subdirectory there are 3D models for a simple case and also for a spacer which you can print in 5 copies and which is used to separate the two boards. In the keyboard's STL subdirectory thera is a 3D model for a holder that fits in the big square holes in the keyboard PCB and holds a typical space key stabilizer.
 
 Most of the build is pretty self-explanatory, as all the components are described on the PCB. The things to watch for, in no particular order, are as follows:
 1. You can omit all the parts in the 'COMPOSITE VIDEO SECTION' if you're only planning to use the RGB output. The file 'RGB_Scart_Tape.pdf' shows how to build a SCART cable, and this is definitely the recommended way of using an Oric, original or cloned.
@@ -30,3 +30,7 @@ Most of the build is pretty self-explanatory, as all the components are describe
 9. The main PCB and the keyboard PCB are connected using two pin headers - J3 and J7 on the main PCB, J1 and J2 on the keyboard PCB. Two male pin headers must be installed on the back of the main PCB, two female headers on the back of the keyboard PCB, and then the two boards must be connected back to back:
 <img src="./Pictures/MainPCBback.jpg" width="512">
 <img src="./Pictures/KeyboardPCBback.jpg" width="512">
+Then you should put 3D printed spacers between the two boards where the holes are and screw the boards to the case using M3x16 or M3x18 screws.
+10. As for the keyboard, the joystick ports must be soldered on the back side od the PCB, like so:
+<img src="./Pictures/joyport.jpg" width="512">
+
