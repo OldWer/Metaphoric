@@ -17,7 +17,7 @@ Metaphoric is an Oric clone with the memory subsystem based on the OriClone-1 pr
 <img src="./Pictures/20250117_132145.jpg" width="512">
 
 # Building the Metaphoric
-Note: The main PCB fits in the original Oric-1/Atmos case (the keyboard PCB <i>does not</i>!). If you would like to use the main PCB with the original keyboard and case, do not install J10 (TRRS socket) and J7 (auxiliary connector that supports the additional switches on the keyboard).
+Note: The main PCB fits in the original Oric-1/Atmos case (the keyboard PCB <i>does not</i>!). If you would like to use the main PCB with the original keyboard and case, do not install J10 (TRRS socket) and J7 (auxiliary connector that supports the additional switches on the keyboard). Also all the chips near the bottom of the board - IC10, IC15/18, IC5, IC6, IC12 and IC16 - cannot be socketed and must be soldered directly to the board, or the original case won't close.
 
 The repository contains two directories with KiCAD projects for the main PCB and the keyboard PCB. The bill of materials is available in BOM.* files in the respective directories (in csv, xlsx and PDF formats). In the gerbers subdirectories there are gerber files ready for manufacturing (I used recommended JLCPCB settings when exporting the gerbers). In the main PCB's STL subdirectory there are 3D models for a simple case and also for a spacer which you can print in 5 copies and which is used to separate the two boards. In the keyboard's STL subdirectory thera is a 3D model for a holder that fits in the big square holes in the keyboard PCB and holds a typical space key stabilizer.
 
