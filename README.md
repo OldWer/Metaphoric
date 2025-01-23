@@ -35,7 +35,7 @@ Then you should put 3D printed spacers between the two boards where the holes ar
 10. As for the keyboard, the joystick ports must be soldered on the back side of the PCB, like so:
 <img src="./Pictures/joyport.jpg" width="512">
 11. There are also solder jumpers JP2 and JP3 that can be used to configure additional joystick buttons (eg. MSX, Amstrad CPC or Sega Master System/Amiga). There are some powered joysticks (e.g. with an autofire function) which are usually powered from the pin 7 of the DB9 port, and it probably wouldn't be a good idea to power them intermittently from the outputs of the VIA or the AY chip. If you'd like to use additional buttons, see the note in the keyboard schematic.<p></p>
-12. The spacebar stabilizer holder must be printed once in normal orientation (left) and once mirrored (right), because it is not exactly symmetrical. Then the holders must be pushed into the holes (some light sanding may be necessary), and finally the stabilizer itself must be glued to the holders with a tiny amount of glue (so as not to glue together the moving plastic parts).
+12. The spacebar stabilizer holder must be printed once in normal orientation (left) and once mirrored (right), because it is not exactly symmetrical. Then the holders must be pushed into the big square holes in the kyeboard PCB (some light sanding may be necessary), and finally the stabilizer itself must be glued to the holders with a tiny amount of glue (so as not to glue together the moving plastic parts).
 <img src="./Pictures/20250123_124024.jpg" width="512">
 <img src="./Pictures/20250123_124042.jpg" width="512">
 <p></p>
