@@ -40,6 +40,6 @@ Then you should put 3D printed spacers between the two boards where the holes ar
 <p></p>
 If in doubt, open the relevant KiCAD PCB file and go to the 3D viewer; I've added 3D models for all the parts, creating some that I could not find anywhere, and you can check exactly how everything should look like.
 <p></p>
-If you have any questions, write to me at oldwer@wp.pl, I will be happy to help.
+If you have any questions, write to me at oldwer@op.pl, I will be happy to help.
 <p></p>
 Good luck soldering your own Oric!
